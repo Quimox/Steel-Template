@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+
+-->
+<html>
+    <head>
+        <title>Project gallery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles -->
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Font Awesome 4 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Font Raleway -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- Cabecera -->
+        <div class="container d-none d-lg-block">
+            <div class="row p-5">
+                <div class="col-6">
+                    <a href="#">
+                        <img src="img/logo-default - copia.png" alt=""/>
+                    </a>
+                </div>
+                <div class="col-6 text-end">
+                    <span class="h5"><strong>NEED HELP? CONTACT US</strong></span><br>
+                    <i class="fa fa-mobile" style="font-size:48px;color:#c9c9c9"></i>
+                    <a href="#" class="h1 text-decoration-none cl-3 telefono"><strong>800-2345-6789</strong></a><br>
+                    Mon-Thu:<span class="cl-4">6am-4pm;</span> Fri:<span class="cl-4">6am-3pm;</span>
+                </div>
+            </div>
+        </div>
+        <!-- Menú -->
+        <div class="d-lg-none sticky-top bg-white">
+            <div class="row" style="padding: 5px;">
+                <div class="col-11">
+                    <button class="d-lg-none btncustom" onclick="myFunction()" style="background: transparent; border: 0;"> <i class="fa fa-bars text-black fa-2x"></i></button>     
+                    <a href="#">
+                        <img src="img/logo-default - copia.png" alt="" class="imgresponsive">
+                    </a> 
+                </div>
+                <div class="col-1">
+                    <button class="btncustom" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"  style="background: transparent; border: 0;">
+                        <span><i class="fa fa-ellipsis-v text-black fa-2x mx-auto" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="row" style="width: 390px;float: right;position: absolute;z-index: 5;right: 0;">  
+                <div class="text-end">
+                    <div class="text-end container-fluid bg-white collapse navbar-collapse collapse" id="navbarNavDropdown">
+                        <span class="h5"><strong>NEED HELP? CONTACT US</strong></span><br>
+                        <i class="fa fa-mobile" style="font-size:48px;color:#c9c9c9"></i>
+                        <a href="#" class="h1 text-decoration-none cl-3 telefono"><strong>800-2345-6789</strong></a><br>
+                        Mon-Thu:<span class="cl-4">6am-4pm;</span> Fri:<span class="cl-4">6am-3pm;</span>
+                    </div>
+                </div>
+            </div>
+        </div>           
+        <div class="navbar-expand-lg sticky-top color2 fuenteprincipal">
+            <div class="container">
+                <div class="fuenteprincipal">               
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">                      
+                                <li class="nav-item">
+                                    <a class="nav-link linkmenu" href="index.html" onclick="window.location = 'index.html'">HOME</a>
+                                </li>
+                                <div class="dropdown">
+                                    <li class="nav-item ">
+                                        <a class="nav-link linkmenu" href="about_us.html" onclick="window.location = 'about_us.html'">ABOUT US</a>
+
+                                    </li>
+                                    <div class="dropdown-content">
+                                        <a href="whatwedo.html" onclick="window.location='whatwedo.html'">What we do</a>
+                                        <a href="whatwedo.html" onclick="window.location='whatwedo.html'">What we offer</a>
+                                        <a href="whatwedo.html" onclick="window.location='whatwedo.html'">Forum</a>
+                                    </div>
+                                </div>
+                                <li class="nav-item">
+                                    <a class="nav-link linkmenu" href="products.html" onclick="window.location = 'products.html'">PRODUCT & SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link linkmenu" href="project_gallery.html" onclick="window.location = 'project_gallery.html'">PROJECT GALLERIES</a>
+                                </li>                               
+                                <li class="nav-item">
+                                    <a class="nav-link linkmenu" href="news.html" onclick="window.location = 'news.html'">NEWS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link linkmenu" href="prices.html" onclick="window.location = 'prices.html'">PRICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link linkmenu" href="contact.html" onclick="window.location = 'contact.html'">CONTACT</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        </div>
+        <hr class="m-0 opacity-50 cl-4">
+        <div id="mySidepanel" class="sidepanel d-lg-none  slide-out-right ">         
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="products.html">Product & Services</a>
+            <a href="project_gallery.html">Project Galleries</a>
+            <a href="news.html">News</a>
+            <a href="prices.html">Prices</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <!-- Project gallery -->
+        <div class="container padding-top-80">
+            <div class="row">
+                <div>
+                    <h1 class="cl-3-titol cl-3"><strong>PROJECT</strong> GALLERY</h1>
+                </div>
+            </div>
+            <!-- Primera fila -->
+            <div class="padding-top-30 padding-left-right-15">
+                <div class="row col-12">
+                    <div class="col-md-6 col-lg-4 col-sm-6 margin-bottom-30 ">
+                        <img src="imgprojectgallery/page-3_img01.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #1</h4>
+                            <p class="cl-4" style="font-size: 15px">Abactor, species, et burgus. Ubi est emeritis sensorem? Cum index nocere, omnes cedriumes demitto ferox.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img02.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #2</h4>
+                            <p class="cl-4" style="font-size: 15px">Toruss ridetis in aetheres! Cum ignigena ire, omnes rectores pugna camerarius, bi-color medicinaes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img03.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #3</h4>
+                            <p class="cl-4" style="font-size: 15px">Valebats peregrinatione, tanquam albus bromium. Abactors observare in albus hafnia! Cum parma credere.</p>
+                        </div>
+                    </div>
+
+                    <!-- Segunda fila -->
+
+                    <div class="col-12 col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img04.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #4</h4>
+                            <p class="cl-4" style="font-size: 15px">Germanus plasmators ducunt ad candidatus. Cum ignigena cadunt, omnes triticumes vitare peritus.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img05.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #5</h4>
+                            <p class="cl-4" style="font-size: 15px">Nunquam acquirere nuclear vexatum iacere. Fidelis, fatalis devirginatos nunquam manifestum de emeritis.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img06.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #6</h4>
+                            <p class="cl-4" style="font-size: 15px">Nunquam consumere mens. Cum luba tolerare, omnes abaculuses demitto lotus, placidus equisoes.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tercera fila -->
+
+                    <div class="col-12 col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img07.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #7</h4>
+                            <p class="cl-4" style="font-size: 15px">Teres valebat patienter demittos nuclear vexatum iacere est. Secundus, domesticus aonidess sensim pugna.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img08.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #8</h4>
+                            <p class="cl-4" style="font-size: 15px">Ecce. Mineralis assimilants, tanquam camerarius historia. Primus, azureus eleatess saepe promissio de barbatus.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-sm-6 margin-bottom-30">
+                        <img src="imgprojectgallery/page-3_img09.jpg" style="width: 100%" alt=""/>
+                        <div class="p-4 border">
+                            <h4>PROJECT #9</h4>
+                            <p class="cl-4" style="font-size: 15px">Domina brevis zeta est. Ridetis una ducunt ad peritus hydra. Bromiums sunt armariums de noster absolutio. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Parallax -->
+        <div class="parallax-5" style="background-image: url(imgprojectgallery/parallax5.jpg)">
+            <div class="container padding-top-40-bot-40">
+                <div class="row justify-content-evenly col-12">
+                    <div class="col-md-5 bg-parallax posicion-relativa padding-left-15-bot-15 margin-left-15-bot-15 pt-3">
+                        <div class="cl-1">
+                            <div class="col-9 padding-44-30">
+                                <h2>PRESENTATION</h2>
+                                <p style="font-size: 15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis nibh ac lectus bibendum, in aliquet tortor luctus. Morbi ut libero eget sem gravida condimentum. Maecenas semper sagittis purus, senectus et netus et malesuada fames ac turpis egestas. Morbi posuere diam auctor tellus dictum interdum. Donec faucibus a felis ut porta. Nulla facilisi. Donec diam quam, aliquet in commodo a.</p>
+                            </div>
+                            <div class="col-3">
+                                <a href="#" class="text-white flecha-blanca text-decoration-none"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 bg-parallax posicion-relativa padding-left-15-bot-15 margin-left-15-bot-15 pt-3">
+                        <div class="cl-1">
+                            <div class="col-9 padding-44-30">
+                                <h2>COMMERCE</h2>
+                                <p style="font-size: 15px">Nulla mollis nibh ac lectus bibendum, in aliquet tortor luctus. Morbi ut libero eget sem gravida condimentum. Maecenas semper sagittis purus, senectus et netus et malesuada fames ac turpis egestas. Morbi posuere diam auctor eros sit amet, egestas massa. Mauris hendrerit ipsum sed efficitur hendrerit congue. Nullam rhoncus orci vitae maximus varius. Aliquam tempor neque arcu, lobortis preti.</p>
+                            </div>
+                            <div class="col-3">
+                                <a href="#" class="text-white flecha-blanca text-decoration-none"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pie de página -->
+        <div class="bg-2 p-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <h1 class="cl-1 pb-5"><strong>CONTACTS</strong></h1>
+                        <P class="cl-3 p-1 negritalight">FREEPHONE: <a href="#" class="cl-1 text-decoration-none footer">800-2345-6789</a></P>
+                        <P class="cl-3 p-1 negritalight">ADRESS: <span class="cl-1">4578 Marmora Road,Glasgow D04 89GR</span></P>
+                        <P class="cl-3 p-1 negritalight">OPENING HOURS: <span class="cl-1">6am-4pm PST M-Th; 6am-3pm PST Fri</span></P>
+                        <P class="cl-3 p-1 negritalight">E-MAIL: <a href="#" class="text-decoration-none cl-5 footer">info@demolink.org</a></P>
+                    </div>
+                    <div class="col-md-12 col-lg-6 d-none d-sm-block">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24279.091534834595!2d0.46570854999999994!3d40.4777772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1651143051125!5m2!1ses!2ses" width="570" height="310" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="d-block d-sm-none">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24279.091534834595!2d0.46570854999999994!3d40.4777772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1651143051125!5m2!1ses!2ses" width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row footer-2">
+                <div class="col-md-12 col-lg-6 p-1">
+                    <p>
+                        <span class="padding-left-30">
+                            ©  2022 Steel and Fabrication Industry.
+                            <a class="text-decoration-none footer" href="privacy-policy.html">Privacy Policy</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="back btn btn-floating btn-lg " id="btn-back-to-top" style="background-color: #fc5a0a">
+            <i class="fa fa-arrow-up text-white" aria-hidden="true"></i>
+        </button>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+
+                                        //Get the button
+                                        let mybutton = document.getElementById("btn-back-to-top");
+
+                                        // When the user scrolls down 20px from the top of the document, show the button
+                                        window.onscroll = function () {
+                                            scrollFunction();
+                                        };
+
+                                        function scrollFunction() {
+                                            if (
+                                                    document.body.scrollTop > 20 ||
+                                                    document.documentElement.scrollTop > 20
+                                                    ) {
+                                                mybutton.style.display = "block";
+                                            } else {
+                                                mybutton.style.display = "none";
+                                            }
+                                        }
+                                        // When the user clicks on the button, scroll to the top of the document
+                                        mybutton.addEventListener("click", backToTop);
+
+                                        function backToTop() {
+                                            document.body.scrollTop = 0;
+                                            document.documentElement.scrollTop = 0;
+                                        }
+        </script>
+        <!-- Script -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("mySidepanel");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>
